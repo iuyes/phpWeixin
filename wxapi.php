@@ -16,8 +16,6 @@ require('wx/Wechat.php');//核心服务文件
 require('wx/wx.php');    //业务服务文件
 
 
-$wechat = new MyWechat('lejian', TRUE);
-$wechat->run();
 
 
 /**
@@ -178,4 +176,6 @@ class MyWechat extends Wechat
 
 }
 
+$wechat = new MyWechat('lejian', TRUE);
+$wechat->run();
 
